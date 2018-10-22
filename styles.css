@@ -10,12 +10,13 @@ header {
     background-repeat: repeat;
     padding: 20px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
 h1{
   margin:0px;
+  font-size: 40px;
 }
 
 h3 {
@@ -72,14 +73,14 @@ nav{
 
 /* Style the content */
 article {
-    background-color: #f1f1f1;
+    background-color: #fef3ee;
+    padding: 15px;
     width: 50%;
-    padding: 20px;
 }
 
 /* Style the footer */
 footer {
-    background-color: #eee0e0;
+    background-color: #c1c0c0;
     padding: 50px;
     margin:0px;
     text-align: center;
