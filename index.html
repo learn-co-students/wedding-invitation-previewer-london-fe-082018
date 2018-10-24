@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
-  <script src="index.jss"></script>
+  <script src="index.js"></script>
   <title> Donna's Wedding Invitation Designer </title>
 </head>
 
@@ -12,9 +12,9 @@
   <h3> Donna's Wedding Invitation Designer</h3>
   <nav>
     <ul>
-      <li><a href="#vintage">Vintage</a></li>
-      <li><a href="#romantic">Romantic</a></li>
-      <li><a href="#modern">Modern</a></li>
+      <li id="vintage">Vintage</li>
+      <li id="romantic">Romantic</li>
+      <li id="modern"> Modern </li>
     </ul>
   </nav>
 </header>
@@ -22,37 +22,38 @@
 <section>
   
   <article id="form"> 
-    <form action="/action_page.php">
+    <form>
       First name:<br>
-      <input type="text" name="firstname">
+      <input type="text" name="firstname" id="firstName">
       <br>
       Second name:<br>
-      <input type="text" name="secondname">
+      <input type="text" name="secondname" id="secondName">
       <br>
       Last name:<br>
-      <input type="text" name="lastname">
+      <input type="text" name="lastname" id="lastName">
       <br>
       Date:<br>
-      <input type="date" name="date">
+      <input type="date" name="date" id="date">
       <br>
       Wedding Location:<br>
-      <input type="text" name="weddinglocation">
+      <input type="text" name="weddinglocation" id="weddingLocation">
       <br>
       <br>
-      <input type="submit" value="Submit">
+      <button type="submit" value="Submit" id="submit"> Submit </button> 
     </form> 
     
     <p>If you click the "Submit" button, this will pre-populate your wedding invite design.</p>
     </article>  
     
     <article id="previewer">
+      
       <p> This is placeholder for the preview section </p>
-      <h1> T & H</h1>
+      <h1><span id="firstLetter"> T </span> & <span id="secondLetter"> H </span></h1>
       <p> You are cordially invited to the wedding of </p>
-      <h2> Tom & Harry </h2>
-      <h1> Wyatt </h1>
-      <h3> 09/08/2019</h3>
-      <h3> Location Here</h3>
+      <h2><span id="firstNamePreview"> Tom </span> & <span id="secondNamePreview"> Harry </span></h2>
+      <h1 id="lastNamePreview"> Wyatt </h1>
+      <h4 id="datePreview"> 09/08/2019</h4>
+      <h4 id="locationPreview"> Location Here</h4>
       
     </article>
   </section>

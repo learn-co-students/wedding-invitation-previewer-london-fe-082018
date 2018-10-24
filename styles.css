@@ -6,7 +6,9 @@ body {
 
 /* Style the header */
 header {
-    background-image: url("https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=734bdc21c63ca5f61312967a14643955&auto=format&fit=crop&w=1650&q=80");
+    background-image: url(
+    "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bfef355c0cf4898112f3c63cd8bb4bf9&auto=format&fit=crop&w=1650&q=80"
+    );
     background-repeat: repeat;
     padding: 20px;
     text-align: center;
@@ -25,11 +27,10 @@ h3 {
 }
 
 /* Container for flexboxes */
-
 section {
     display: -webkit-flex;
     display: flex;
-    height: 70%
+    height: 100%
 }
 
 /* Style the navigation menu */
@@ -48,13 +49,13 @@ li {
     width: 32%; 
 }
 
-li a {
+li {
     display: inline;
     color: white;
     text-decoration: overline underline;
 }
 
-li a:hover:not(.active) {
+li:hover:not(.active) {
     background-color: #c0475f;
 }
 
@@ -74,13 +75,14 @@ nav{
 /* Style the content */
 article {
     background-color: #fef3ee;
-    padding: 15px;
+    padding: 50px;
     width: 50%;
 }
 
 /* Style the footer */
 footer {
-    background-color: #c1c0c0;
+    background-image: url(
+    "https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=734bdc21c63ca5f61312967a14643955&auto=format&fit=crop&w=1650&q=80");
     padding: 50px;
     margin:0px;
     text-align: center;
