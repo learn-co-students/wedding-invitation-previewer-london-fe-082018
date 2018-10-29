@@ -27,6 +27,7 @@ document.getElementById("vintage").addEventListener("click", vintageFunction);
       document.getElementById("previewer").style.fontFamily = "Diplomata, cursive";
       document.getElementById("previewer").style.color ="black";
       document.getElementById("inviteBody").style.borderStyle = "none";
+      document.getElementById("inviteBody").style.backgroundColor = "rgba(255,255,255,0.4)";
       var x = document.getElementsByClassName("editable");
       for (let i = 0; i < x.length; i = i + 1) {
         x[i].style.color ="white"
