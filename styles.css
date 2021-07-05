@@ -1,0 +1,152 @@
+
+body {
+font-family: 'Merienda', cursive;
+    margin: 0px;
+    background-color: black;
+    background-repeat: repeat;
+}
+
+/* Style the header */
+header {
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bfef355c0cf4898112f3c63cd8bb4bf9&auto=format&fit=crop&w=1400&q=60");
+}
+
+h1{
+  margin:0px;
+  font-size: 50px;
+  padding-bottom:10px;
+}
+
+h3 {
+  margin:0px;
+  color:#c0475f;
+  font-family: 'Satisfy', cursive;
+  font-size:28px;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+    height: 100%
+}
+
+/* Style the navigation menu */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+    
+    width: 32%; 
+}
+
+li {
+    display: inline;
+    color: white;
+    text-decoration: overline underline;
+}
+
+li:hover:not(.active) {
+    background-color: #c0475f;
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+nav{
+  margin-top:10px;
+  border-top:1px solid #ffffff;
+  text-align: center;
+}
+
+/* Style the content */
+article {
+    padding: 40px;
+    margin:40px;
+    width: 38%;
+    color: white;
+}
+
+/* Style the content */
+form {
+    margin-bottom: 20px;
+    }
+    input{
+    width:350px;
+    margin-bottom:25px; /*or whatever you want the spacing to be*/
+}
+
+/* Style the previewer */
+
+#previewer {
+  background-image: url("https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9699a304159246af55ed7002f6ef7f8a&auto=format&fit=crop&w=800&q=60");
+  text-align: center;
+  font-size: 20px;
+  color:black;
+  background-size:cover;
+}
+
+#firstLetter, #secondLetter{
+  font-size:95px;
+}
+
+/* Style the invitation body */
+
+#inviteBody {
+  background-color:rgba(255,255,255,0.4);
+  padding: 50px; 
+}
+
+
+
+/* Style the footer */
+footer {
+    padding: 20px;
+    margin:0px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 1000px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    #form{
+      width:80%;
+      padding-top:20px;
+      padding:10px;
+      margin:auto;
+    }
+    
+    input{
+      width: 80%;
+    }
+    
+    #previewer {
+      width: 80%;
+      padding:10px;
+      margin:auto;
+    }
+    #firstLetter, #secondLetter{
+      font-size:65px;
+}
+}
+
+

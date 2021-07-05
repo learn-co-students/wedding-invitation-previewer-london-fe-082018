@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Diplomata|Special+Elite|Courgette|Merienda|Marck+Script|Russo+One|Fascinate+Inline|Great+Vibes|Satisfy" rel="stylesheet">
+  <script src="index.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Donna's Wedding Invitation Designer </title>
+</head>
+
+<body>
+  <header> 
+  <h1> Made for you with Love</h1>
+  <h3> Donna's Wedding Invitation Designer</h3>
+  <nav>
+    <ul>
+      <li id="vintage">Vintage</li>
+      <li id="romantic">Romantic</li>
+      <li id="modern"> Modern </li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  
+  <article id="form"> 
+    <form>
+      First name:<br>
+      <input type="text" name="firstname" id="firstName">
+      <br>
+      Second name:<br>
+      <input type="text" name="secondname" id="secondName">
+      <br>
+      Last name:<br>
+      <input type="text" name="lastname" id="lastName">
+      <br>
+      Date:<br>
+      <input type="date" name="date" id="date">
+      <br>
+      Wedding Location:<br>
+      <input type="text" name="weddinglocation" id="weddingLocation">
+      <br>
+      <br>
+      <button type="submit" value="Submit" id="submit"> Submit </button> 
+    </form> 
+    
+    <p>If you click the "Submit" button, this will pre-populate your wedding invite design.</p>
+    </article>  
+    
+    <article id="previewer">
+      <aside id="inviteBody"> 
+      
+      <h1><span id="firstLetter"> T </span> & <span id="secondLetter"> H </span></h1>
+      <p class='editable'> You are cordially invited to the wedding of </p>
+      <h2><span id="firstNamePreview"> Tom </span> & <span id="secondNamePreview"> Harry </span></h2>
+      <h2 id="lastNamePreview"> Wyatt </h2>
+      <p class='editable'> on the </p>
+      <h4 id="datePreview" class='editable'> 9th of Aug 2019</h4>
+      <h4 id="locationPreview" class='editable'> 15 Mayfair Mansion, London SW16 2ES </h4>
+      
+      </aside>
+    </article>
+  </section>
+  <footer>
+    <p> &copy; Donna C </p>
+  </footer>
+</body>
+</html>
