@@ -1,0 +1,132 @@
+body {
+  background-color: #e8f0ff;
+  margin:0px;
+}
+
+header {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size:30px;
+  Margin:auto;
+  text-align: center;
+  padding:20px;
+}
+
+button {
+  font-family: 'Poiret One', cursive;
+  font-size:20px;
+  Margin:auto;
+  padding:20px;
+  background-color: Transparent;
+  border:Transparent;
+  
+}
+
+form {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  margin:auto;
+  padding:20px;
+  
+}
+
+#input {
+  display:inline-block;
+  margin:10px;
+}
+
+#background {
+
+  height:500px;
+  width:400px;
+  background-size: cover;
+  margin:10px;
+  text-align: center;
+  padding:50px;
+  display:inline-block;
+}
+
+.main {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#invite {
+  font-family: 'Montserrat', sans-serif;
+  font-size:10px;
+  color:white;
+  padding:15px;
+  display:none;
+}
+
+#firstname {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:30px;
+  color:pink;
+  padding:0px;
+  margin:0px;
+  display:none;
+}
+
+#secondname {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:30px;
+  color:pink;
+  padding:0px;
+  margin:0px;
+  display:none;
+}
+#and {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  color:blue;
+  padding:0px;
+  margin:0px;
+  display:none;
+}
+
+#lastname {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:30px;
+  color:purple;
+  padding:0px;
+  margin:0px;
+  display:none;
+}
+
+#on {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:10px;
+  color:white;
+  padding:0px;
+  margin:0px;
+  display:none;
+}
+
+#at {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:10px;
+  color:white;
+  padding:0px;
+  margin:0px;
+  display:none;
+}
+
+#date {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  color:green;
+  padding:0px;
+  margin:0px;
+  display:none;
+}
+
+#location {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  color:yellow;
+  padding:0px;
+  margin:0px;
+  display:none;
+}
